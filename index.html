@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="slideshow-container">
+    <div class="mySlides fade">
+        <div class="numbertext">1 / 6</div>
+        <img src="./Images/nature/nature1.jpg" style="width:100%">
+        
+    </div>
+    <div class="mySlides fade">
+        <div class="numbertext">2 / 6</div>
+        <img src="./Images/nature/nature2.jpg" style="width:100%">    
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext"> 3 / 6</div>
+        <img src="./Images/nature/nature3.jpg" style="width:100%">    
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext"> 4 / 6</div>
+        <img src="./Images/nature/nature4.jpg" style="width:100%">    
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext"> 5 / 6</div>
+        <img src="./Images/nature/nature5.jpg" style="width:100%">    
+    </div>
+    <div class="mySlides fade">
+        <div class="numbertext"> 6 / 6</div>
+        <img src="./Images/nature/nature6.jpg" style="width:100%">    
+    </div>
+
+</div>
+    <i class="prev fas fa-chevron-left" onclick="plusSlides(-1)"></i>
+    <i class="next fas fa-chevron-right" onclick="plusSlides(1)"></i>
+
+
+    <div class="row">
+        <div class="column">
+            <img class="demo cursor" src="./Images/nature/nature1.jpg" onclick="currentSlide(1)">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="./Images/nature/nature2.jpg" onclick="currentSlide(2)">
+        </div> 
+        <div class="column">
+            <img class="demo cursor" src="./Images/nature/nature3.jpg" onclick="currentSlide(3)">
+        </div> 
+        <div class="column">
+            <img class="demo cursor" src="./Images/nature/nature4.jpg" onclick="currentSlide(4)">
+        </div> 
+        <div class="column">
+            <img class="demo cursor" src="./Images/nature/nature5.jpg" onclick="currentSlide(5)">
+        </div>
+        <div class="column"> 
+            <img class="demo cursor" src="./Images/nature/nature6.jpg" onclick="currentSlide(6)">
+        </div>
+    </div>
+
+    
+    <script src="app.js"></script>
+</body>
+</html>
